@@ -1,0 +1,78 @@
+.modalPic {
+    width:40%;
+    height:0;
+    padding-bottom: 40%;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.w_6 {
+    width:3.8rem;
+}
+.searchPic {
+    width: 90%;
+    height: 0;
+    padding-bottom: 90%;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.aspectratio {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-image: url('../assets/logo.png');
+    background-position: center;
+    background-size: cover;
+}
+.homelinks {
+    text-decoration: none;
+    color:white;
+    padding-bottom: 2px;
+}
+.homelinks:hover {
+    color:white;
+    border-bottom: solid 3px orange;
+    transition: 0.3s;
+}
+
+.icon {
+    color:white !important;
+}
+.profilepic {
+    height:3rem;
+    width:3rem;
+    border-radius: 50%;
+    background-color: white;
+    cursor:pointer;
+}
+.searchDropdown {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    top:2rem;
+    border-top: 2px solid lightgray;
+    width: 100%;
+    height:5rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.searchDropdownInvisible {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    top:2rem;
+    border-top: 2px solid lightgray;
+    width: 100%;
+}
+@media screen and (min-width:768px) {
+    .w_6 {
+        width:3.5rem;
+    }
+}
+@media screen and (max-width:768px) and (orientation:landscape) {
+    .w_6{
+        transform: scale(0.8);
+    }
+}

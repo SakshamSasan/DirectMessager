@@ -1,0 +1,119 @@
+.App{
+  min-height:100vh;
+  height: auto;
+  background-image: url(./assets/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar {
+  color: white;
+}
+.navbar-brand>div {
+  display: inline-block;
+}
+.nav-item{
+  padding-left: 0.7rem;
+}
+
+#option-line{
+  width:100%;
+}
+.vh-65 {
+  height:65vh;
+}
+.w-80 {
+  width:80%
+}
+
+
+.searchBarResults {
+  cursor: pointer;
+}
+.searchBarResults:hover {
+  background-color: rgb(126,231,119);
+}
+
+.groupSearchBarResults:hover {
+  background-color: rgb(77,169,231);
+}
+.w-adjust{
+  box-sizing: border-box;
+  display: block;
+  width:100%
+}
+.h-90 {
+  height:90%
+}
+.user-input {
+  background-color: rgba(21,21,21,0.1);
+}
+
+.w-input{
+  width:70%;
+}
+@media screen and (min-width:768px) {
+  .w-50-md{
+    width:50%;
+  }
+  .input-length{
+    width:35%;
+  }
+
+ #option-line {
+   width:80%;
+ }
+ .w-input {
+   width:90%
+ }
+}
+@media screen and (min-width:992px){
+  #navbarSupportedContent{
+    position: relative;
+  }
+ .nav-item>div {
+   display: inline-block;
+   position: absolute;
+   right:3%
+ }
+ .button {
+   display:inline-block;
+   position:absolute;
+   right:20%;
+ }
+}
+a {
+  text-decoration: none;
+  color:green
+}
+@media screen and (min-width:992px) and (orientation:portrait){
+  #App{
+    height: 100vh;
+  }
+}
+@media screen and (min-width:992px){
+  .navbar-nav{
+    display: flex;
+    justify-content: space-between;
+
+  }
+}
+@media screen and (max-width:768px) and (orientation:landscape){
+  .vh-65{
+    height:110vh;
+  }
+}

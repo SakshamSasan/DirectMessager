@@ -1,0 +1,14 @@
+.profilepic{
+    width:50%;
+    height: 0;
+    padding-bottom: 50%;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button {
+    color:white;
+    font-weight: bold;
+    border:solid 2px black
+}
